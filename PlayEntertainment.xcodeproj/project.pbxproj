@@ -47,6 +47,7 @@
 		75CD0DD91FA6F4FA009A8FFE /* PlayEntertainmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayEntertainmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CD0DDD1FA6F4FA009A8FFE /* PlayEntertainmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayEntertainmentUITests.swift; sourceTree = "<group>"; };
 		75CD0DDF1FA6F4FA009A8FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CD0DEB1FA6F5A3009A8FFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				75CD0DC41FA6F4FA009A8FFE /* Assets.xcassets */,
 				75CD0DC61FA6F4FA009A8FFE /* LaunchScreen.storyboard */,
 				75CD0DC91FA6F4FA009A8FFE /* Info.plist */,
+				75CD0DEB1FA6F5A3009A8FFE /* GoogleService-Info.plist */,
 			);
 			path = PlayEntertainment;
 			sourceTree = "<group>";
@@ -433,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hyeonK98.PlayEntertainment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hyeonK98.PlayEntertainment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
