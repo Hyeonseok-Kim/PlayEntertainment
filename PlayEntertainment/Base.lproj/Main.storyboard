@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kT9-Y2-9hW">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="kT9-Y2-9hW">
+                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kT9-Y2-9hW" id="F2W-Ak-co4">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -35,7 +35,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ru5-u2-JtI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1615" y="-737"/>
+            <point key="canvasLocation" x="1613.5999999999999" y="-737.18140929535241"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="Bmj-tm-Ju0">
@@ -46,11 +46,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Xx1-Kk-dqf">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="Xx1-Kk-dqf">
+                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xx1-Kk-dqf" id="eUo-qc-Iu8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -64,7 +64,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKp-TE-oAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1615" y="152"/>
+            <point key="canvasLocation" x="1613.5999999999999" y="151.57421289355324"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="syI-bs-RE4">
@@ -75,11 +75,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9SC-ql-0VS">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="9SC-ql-0VS">
+                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9SC-ql-0VS" id="kbn-w8-huV">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -93,7 +93,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NVa-6R-rhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1610" y="1059"/>
+            <point key="canvasLocation" x="1608.8" y="1058.3208395802101"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="Etk-uB-CGB">
@@ -110,24 +110,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XSs-0K-I81" id="eP5-5t-5Zi">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FingerprintRecognition" translatesAutoresizingMaskIntoConstraints="NO" id="zqE-Jn-WeM">
-                                            <rect key="frame" x="8" y="0.0" width="56" height="56"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </imageView>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXh-NE-hGV">
-                                            <rect key="frame" x="318" y="12" width="49" height="31"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </switch>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="지문인식" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-lz-KAQ">
-                                            <rect key="frame" x="72" y="17" width="59" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -146,7 +128,7 @@
         <scene sceneID="Xxa-nW-1hW">
             <objects>
                 <navigationController id="2BA-xi-u1l" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="설정" image="ControlCenter" selectedImage="ControlCenter" id="fpF-m4-el9"/>
+                    <tabBarItem key="tabBarItem" title="설정" image="ControlCenter" landscapeImage="ControlCenter" selectedImage="ControlCenter" id="fpF-m4-el9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xmV-aG-TqL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -159,11 +141,11 @@
             </objects>
             <point key="canvasLocation" x="654" y="1969"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--알림-->
         <scene sceneID="KOm-hC-PKq">
             <objects>
                 <navigationController id="U0m-bd-Cch" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="gO5-Eu-QS2"/>
+                    <tabBarItem key="tabBarItem" title="알림" image="Notice" landscapeImage="Notice" id="gO5-Eu-QS2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jfz-Pe-SJP">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -176,11 +158,11 @@
             </objects>
             <point key="canvasLocation" x="654" y="1060"/>
         </scene>
-        <!--웹-->
+        <!--Navigation Controller-->
         <scene sceneID="IOH-gr-qi0">
             <objects>
                 <navigationController id="B0u-aW-A5h" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="웹" image="Website" selectedImage="Website" id="GnY-RO-hQd"/>
+                    <tabBarItem key="tabBarItem" selectedImage="Website" systemItem="favorites" id="GnY-RO-hQd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oM2-yb-khs">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -193,11 +175,11 @@
             </objects>
             <point key="canvasLocation" x="654" y="152"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--뉴스피드-->
         <scene sceneID="PK7-4j-EGN">
             <objects>
                 <navigationController id="qIE-P2-4jU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="VfF-xC-KdT"/>
+                    <tabBarItem key="tabBarItem" title="뉴스피드" image="NewsFeed" landscapeImage="NewsFeed" selectedImage="NewsFeed" id="VfF-xC-KdT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ukX-9I-64L">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -232,8 +214,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ControlCenter" width="42" height="42"/>
-        <image name="FingerprintRecognition" width="42" height="42"/>
-        <image name="Website" width="42" height="42"/>
+        <image name="ControlCenter" width="33" height="33"/>
+        <image name="NewsFeed" width="33" height="33"/>
+        <image name="Notice" width="33" height="33"/>
+        <image name="Website" width="33" height="33"/>
     </resources>
 </document>
