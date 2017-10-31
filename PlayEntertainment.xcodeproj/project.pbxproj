@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757E58C81FA859B000C1ADDC /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757E58C71FA859B000C1ADDC /* DataCenter.swift */; };
 		75CD0DBE1FA6F4FA009A8FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD0DBD1FA6F4FA009A8FFE /* AppDelegate.swift */; };
 		75CD0DC01FA6F4FA009A8FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD0DBF1FA6F4FA009A8FFE /* ViewController.swift */; };
 		75CD0DC31FA6F4FA009A8FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CD0DC11FA6F4FA009A8FFE /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		75CD0DC81FA6F4FA009A8FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CD0DC61FA6F4FA009A8FFE /* LaunchScreen.storyboard */; };
 		75CD0DD31FA6F4FA009A8FFE /* PlayEntertainmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD0DD21FA6F4FA009A8FFE /* PlayEntertainmentTests.swift */; };
 		75CD0DDE1FA6F4FA009A8FFE /* PlayEntertainmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD0DDD1FA6F4FA009A8FFE /* PlayEntertainmentUITests.swift */; };
+		75F1BADD1FA819BA008F17D2 /* MemoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1BADC1FA819BA008F17D2 /* MemoEditViewController.swift */; };
+		75F1BADF1FA83507008F17D2 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1BADE1FA83507008F17D2 /* MemoListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757E58C71FA859B000C1ADDC /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		75CD0DBA1FA6F4FA009A8FFE /* PlayEntertainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayEntertainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CD0DBD1FA6F4FA009A8FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CD0DBF1FA6F4FA009A8FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		75CD0DDD1FA6F4FA009A8FFE /* PlayEntertainmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayEntertainmentUITests.swift; sourceTree = "<group>"; };
 		75CD0DDF1FA6F4FA009A8FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CD0DEB1FA6F5A3009A8FFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75F1BADC1FA819BA008F17D2 /* MemoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoEditViewController.swift; sourceTree = "<group>"; };
+		75F1BADE1FA83507008F17D2 /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		75CD0DB11FA6F4FA009A8FFE = {
 			isa = PBXGroup;
 			children = (
+				757E58C71FA859B000C1ADDC /* DataCenter.swift */,
 				75CD0DBC1FA6F4FA009A8FFE /* PlayEntertainment */,
 				75CD0DD11FA6F4FA009A8FFE /* PlayEntertainmentTests */,
 				75CD0DDC1FA6F4FA009A8FFE /* PlayEntertainmentUITests */,
@@ -98,6 +105,8 @@
 		75CD0DBC1FA6F4FA009A8FFE /* PlayEntertainment */ = {
 			isa = PBXGroup;
 			children = (
+				75F1BADC1FA819BA008F17D2 /* MemoEditViewController.swift */,
+				75F1BADE1FA83507008F17D2 /* MemoListViewController.swift */,
 				75CD0DBD1FA6F4FA009A8FFE /* AppDelegate.swift */,
 				75CD0DBF1FA6F4FA009A8FFE /* ViewController.swift */,
 				75CD0DC11FA6F4FA009A8FFE /* Main.storyboard */,
@@ -261,6 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F1BADF1FA83507008F17D2 /* MemoListViewController.swift in Sources */,
+				75F1BADD1FA819BA008F17D2 /* MemoEditViewController.swift in Sources */,
+				757E58C81FA859B000C1ADDC /* DataCenter.swift in Sources */,
 				75CD0DC01FA6F4FA009A8FFE /* ViewController.swift in Sources */,
 				75CD0DBE1FA6F4FA009A8FFE /* AppDelegate.swift in Sources */,
 			);
