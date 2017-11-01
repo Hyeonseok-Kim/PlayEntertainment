@@ -36,6 +36,7 @@ class MemoEditViewController: UIViewController {
             print("loading..")
             DataCenter.sharedNoteT.memoData = self.memoData
             print(DataCenter.sharedNoteT.memoData)
+            MemoListViewController().viewDidLoad()
         }) //...
         
     }

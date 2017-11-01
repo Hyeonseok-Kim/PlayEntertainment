@@ -8,10 +8,20 @@
 
 import Foundation
 
+let fileName = "memoData.pages"
+
 class DataCenter {
     static let sharedNoteT = DataCenter()
     
     var memoData = [String]()
     
+    var filePath:String { get {
+        let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        return documentDirectory + fileName
+        }}
+    
+    func save() {
+        NSKeyedArchiver.archiveRootObject(self.memoData, toFile: self.filePath)
+    }
 }
 

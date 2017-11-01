@@ -19,7 +19,7 @@ class MemoListViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         memoData = UserDefaults.standard.object(forKey: "memoData") as? [String] ?? [String]()
-        print(memoData.count)
+        
         return memoData.count
     }
     
@@ -27,11 +27,13 @@ class MemoListViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "writeMemo", for: indexPath)
         
         
+        
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("selected")
+        print(memoData.count)
     }
     
     /*
