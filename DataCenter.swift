@@ -8,9 +8,10 @@
 
 import Foundation
 
-let memoData:DataCenter = DataCenter()
-
 class DataCenter {
+    static let sharedNoteT = DataCenter()
+    
+    var memoData = [String]()
     
 }
 

@@ -10,35 +10,6 @@
     </dependencies>
     <scenes>
         <!--Root View Controller-->
-        <scene sceneID="sap-6a-bNw">
-            <objects>
-                <tableViewController id="Tr0-cg-7bJ" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Syl-ZV-GFD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.33309423919999998" green="0.33318200710000001" blue="0.37899866700000001" alpha="0.59720141270000004" colorSpace="custom" customColorSpace="sRGB"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="kT9-Y2-9hW">
-                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kT9-Y2-9hW" id="F2W-Ak-co4">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Tr0-cg-7bJ" id="MVr-C5-qS9"/>
-                            <outlet property="delegate" destination="Tr0-cg-7bJ" id="YG0-uy-6yf"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="vCf-IE-txP"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ru5-u2-JtI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1613.5999999999999" y="-737.18140929535241"/>
-        </scene>
-        <!--Root View Controller-->
         <scene sceneID="Etk-uB-CGB">
             <objects>
                 <tableViewController id="X4K-ua-ebA" sceneMemberID="viewController">
@@ -83,23 +54,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYU-Zq-B0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="654" y="1076"/>
-        </scene>
-        <!--채팅-->
-        <scene sceneID="PK7-4j-EGN">
-            <objects>
-                <navigationController id="qIE-P2-4jU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="채팅" image="Chating" landscapeImage="Chating" selectedImage="Chating" id="VfF-xC-KdT"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ukX-9I-64L">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Tr0-cg-7bJ" kind="relationship" relationship="rootViewController" id="ViV-H4-vI0"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vzN-nw-ozh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="655" y="-737"/>
         </scene>
         <!--메모-->
         <scene sceneID="2cc-90-4bS">
@@ -149,6 +103,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="메모" image="Memo" landscapeImage="Memo" selectedImage="Memo" id="8FV-uW-9Rd"/>
                     <navigationItem key="navigationItem" id="zoJ-0Z-zTI"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEK-MF-Euf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,7 +133,6 @@
                                         <state key="normal" title="Button" image="Trash"/>
                                         <connections>
                                             <action selector="trashMemo:" destination="2vO-be-IPS" eventType="touchUpInside" id="FAV-a3-P5n"/>
-                                            <segue destination="Thy-ZC-C9W" kind="unwind" unwindAction="unwindTo:MemoList:" id="SUf-jN-Pas"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-o6-527">
@@ -187,7 +141,6 @@
                                         <state key="normal" image="Edit"/>
                                         <connections>
                                             <action selector="edittingMemo:" destination="2vO-be-IPS" eventType="touchUpInside" id="I45-7T-kxh"/>
-                                            <segue destination="Thy-ZC-C9W" kind="unwind" unwindAction="unwindTo:MemoList:" id="nRl-wq-ZFE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -202,7 +155,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oMm-PN-mea" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Thy-ZC-C9W" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1613.5999999999999" y="151.57421289355324"/>
         </scene>
@@ -227,7 +179,6 @@
     </scenes>
     <resources>
         <image name="Add" width="42" height="42"/>
-        <image name="Chating" width="42" height="42"/>
         <image name="Edit" width="33" height="33"/>
         <image name="Memo" width="33" height="33"/>
         <image name="Settings" width="33" height="33"/>

@@ -12,25 +12,19 @@ class MemoListViewController: UIViewController, UITableViewDelegate, UITableView
     
     var memoData = [String]()
     
-    @IBAction func unwind(to unwindSegue: UIStoryboardSegue, MemoList subsequentVC: UIViewController) {
-        print("unwind")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarController?.tabBar.isHidden = false
-        
+        print("complete!")
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         memoData = UserDefaults.standard.object(forKey: "memoData") as? [String] ?? [String]()
-//        print(memoData.count)
+        print(memoData.count)
         return memoData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "writeMemo", for: indexPath)
-        
         
         
         return cell
