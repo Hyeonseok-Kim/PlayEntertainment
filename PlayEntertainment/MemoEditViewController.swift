@@ -35,7 +35,7 @@ class MemoEditViewController: UIViewController {
         dismiss(animated: true, completion: {
             print("loading..")
             DataCenter.sharedNoteT.memoData = self.memoData
-            print(DataCenter.sharedNoteT.memoData)
+//            MemoListViewController().viewWillAppear(true)
             MemoListViewController().viewDidLoad()
         }) //...
         

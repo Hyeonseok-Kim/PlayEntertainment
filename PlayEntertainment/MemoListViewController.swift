@@ -15,11 +15,14 @@ class MemoListViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         print("complete!")
+        memoData = UserDefaults.standard.object(forKey: "memoData") as? [String] ?? [String]()
+//        self.view.reloadInputViews()
+//        self.view.setNeedsLayout()
+        print(memoData)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        memoData = UserDefaults.standard.object(forKey: "memoData") as? [String] ?? [String]()
-        
+//        memoData = UserDefaults.standard.object(forKey: "memoData") as? [String] ?? [String]()
         return memoData.count
     }
     
